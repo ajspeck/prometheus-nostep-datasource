@@ -1,0 +1,56 @@
+{
+  "name": "prometheus-nostep",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.prod.js",
+    "dev": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grafana/simple-json-datasource.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grafana/simple-json-datasource/issues"
+  },
+  "engineStrict": true,
+  "devDependencies": {
+    "@types/grafana": "github:CorpGlory/types-grafana.git",
+    "@types/jest": "^22.2.3",
+    "@types/lodash": "^4.14.74",
+    "@types/react": "^16.2.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.0.1",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.1",
+    "css-loader": "^0.28.11",
+    "grafana-sdk-mocks": "github:grafana/grafana-sdk-mocks",
+    "husky": "^1.0.0-rc.13",
+    "jest": "^23.0.1",
+    "lint-staged": "^7.2.0",
+    "ng-annotate-webpack-plugin": "^0.3.0",
+    "prettier": "1.10.2",
+    "release-it": "^8.0.0",
+    "replace-in-file-webpack-plugin": "^1.0.6",
+    "style-loader": "^0.21.0",
+    "ts-jest": "^22.4.6",
+    "ts-loader": "^4.3.0",
+    "typescript": "^2.8.3",
+    "webpack": "^4.9.1",
+    "webpack-cli": "^3.1.1",
+    "uglifyjs-webpack-plugin": "^2.0.1"
+  },
+  "dependencies": {
+    "angular": "1.6.6",
+    "moment": "^2.22.2",
+    "jquery": "^3.2.1",
+    "lodash": "^4.17.4"
+  },
+  "homepage": "https://github.com/grafana/simple-json-datasource#readme"
+}
